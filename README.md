@@ -5,8 +5,7 @@
 ## Install
 
 ```
-/* React */
-$ npm install react-github-badge react-motion --save
+$ npm install react-github-badge --save
 ```
 
 ## Usage
