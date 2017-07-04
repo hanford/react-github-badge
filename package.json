@@ -1,6 +1,6 @@
 {
   "name": "react-github-badge",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Draggable react drawer",
   "main": "./dist/react-github-badge.min.js",
   "repository": {
@@ -27,8 +27,7 @@
     "styled-jsx": "~0.5.7",
     "webpack": "~2.3.3"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
