@@ -1,44 +1,26 @@
 import React from 'react'
 
 export const GithubBadge = ({ url, title }) => (
-  <div className='star-container'>
-    <a className='start-on-github' href={url} target='_blank'>{title}</a>
-
-    <style jsx>{`
-      .start-on-github {
-        display: block;
-        position: absolute;
-        top: 3rem;
-        right: -7rem;
-        padding: .8em 1.5em;
-        width: 15em;
-        text-align: center;
-        background-color: #0a1818;
-        font-size: 1.2em;
-        font-weight: 500;
-        color: #fefefe;
-        text-decoration: none;
-        white-space: nowrap;
-        transform: rotate(45deg);
-        transform-origin: 50% 50%;
-        transition: all .2s;
-        background-color: rgba(0,0,0,0.7);
-      }
-
-      .start-on-github:hover {
-        background-color: rgba(0,0,0,0.9);
-      }
-
-      .star-container {
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 20rem;
-      }
-
-    `}</style>
-  </div>
+  <a
+    href={url}
+    target='_blank'
+    style={{
+      display: 'block',
+      position: 'absolute',
+      top: '40px',
+      right: '-61px',
+      padding: '16px',
+      width: '300px',
+      textAlign: 'center',
+      backgroundColor: 'rgba(0,0,0,0.7)',
+      color: '#FEFEFE',
+      fontSize: '16px',
+      transform: 'rotate(45deg)',
+      textDecoration: 'none'
+    }}
+  >
+    {title}
+  </a>
 )
 
 export default GithubBadge

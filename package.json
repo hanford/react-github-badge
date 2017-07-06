@@ -24,7 +24,6 @@
     "babel-preset-stage-0": "~6.24.1",
     "react": "~15.5.3",
     "react-dom": "~15.5.3",
-    "styled-jsx": "~0.5.7",
     "webpack": "~2.3.3"
   },
   "dependencies": {},
