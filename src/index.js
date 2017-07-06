@@ -6,7 +6,7 @@ export const GithubBadge = ({ url, title }) => (
     target='_blank'
     style={{
       display: 'block',
-      position: 'absolute',
+      position: 'fixed',
       top: '40px',
       right: '-61px',
       padding: '16px',
