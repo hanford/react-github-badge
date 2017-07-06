@@ -10,7 +10,7 @@ export const GithubBadge = ({ url, title }) => (
       top: '40px',
       right: '-61px',
       padding: '16px',
-      width: '300px',
+      width: '250px',
       textAlign: 'center',
       backgroundColor: 'rgba(0,0,0,0.7)',
       color: '#FEFEFE',
